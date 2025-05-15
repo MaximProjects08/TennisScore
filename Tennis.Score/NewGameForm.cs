@@ -26,8 +26,11 @@ namespace Tennis.Score
             string firstPlayerName = textBox1.Text.Trim();
             int firstPlayerPoints = (int)numericUpDown1.Value;
 
-            string SecondPlayerName = textBox2.Text.Trim();
-            int SecondPlayerPoints = (int)numericUpDown2.Value;
+            string secondPlayerName = textBox2.Text.Trim();
+            int secondPlayerPoints = (int)numericUpDown2.Value;
+
+            FirstPlayer = (firstPlayerName, firstPlayerPoints);
+            SecondPlayer = (secondPlayerName, secondPlayerPoints);
 
             if(!CheckIfInputsAreValid())
             {

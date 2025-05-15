@@ -78,7 +78,7 @@ namespace Tennis.Score
             {
                 return firstPlayer.Item1;
             }
-            else if (firstPlayer.Item2 > secondPlayer.Item2)
+            else if (firstPlayer.Item2 < secondPlayer.Item2)
             {
                 return secondPlayer.Item1;
             }

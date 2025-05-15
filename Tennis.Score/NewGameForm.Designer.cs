@@ -151,6 +151,7 @@
             button1.TabIndex = 10;
             button1.Text = "Save";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += ButtonSaveGameClick;
             // 
             // errorProvider2
             // 
@@ -185,6 +186,11 @@
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
